@@ -1,8 +1,67 @@
-
+/* Goole Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
 *{
    margin: 0;
    padding: 0;
-   box-sizing: border-box;
+   box-sizing: border-box; 
 }
+/* Shared style */
+.font-open-sans{
+   font-family: 'Open Sans', sans-serif;
+   font-optical-sizing: auto;
+}
+header{
+   background-color: #FFF8F3;
+   padding-top: 50px;
+}
+.btn{
+   background-color:#FD6E0A;
+   color: #ffffff;
+   font-size: 20px;
+   font-weight: 700;
+   border: none;
+   border-radius: 5px;
+   padding: 18px 38px;
+   cursor: pointer;
+}
+/* header style start */
+header a{
+   text-decoration: none;
+}
+/* ul li{
+   list-style: none;
+} */
+.logo a{
+   font-size: 45px;
+   font-weight: 900;
+   color: #000000;
+}
+.logo a span{
+   color:#FD6E0A;
+}
+nav {
+   max-width: 1140px;
+   width: 71%;
+   margin: 0px auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav .menu{
+   display: flex;
+   align-items:center;
+   list-style: none;
+   gap: 51px;
+   color:#474747;
+}
+nav .menu a{
+   font-size: 20px;
+   color: #474747;
+}
+
+/*Header style end */
+
+/* Hero section start */
