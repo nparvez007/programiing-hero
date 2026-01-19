@@ -24,6 +24,7 @@
    font-weight: 600;
    padding: 20px 25px;
    margin-top: 30px;
+   cursor: pointer;
 }
 
 
@@ -113,6 +114,106 @@
    color: #FF900E;
 }
 
+/* start experiance section */
+.exp-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 140px;
+}
+.exp-left,
+.exp-right{
+   flex: 1;
+}
+.exp-heading{
+   max-width: 586px;
+
+}
+.exp-heading h1{
+   max-width: 468px;
+   font-size:2.8rem;
+   font-weight: 700;
+   border-left: 5px solid #FF900E;
+   padding-left: 20px;
+   color: #131313;
+   margin-bottom: 20px;
+
+}
+.exp-heading p{
+   font-size: 1rem;
+   font-weight: 500;
+   color: #727272;
+   line-height: 26px;
+   margin-bottom: 20px;
+}
+.card{
+   padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.card h4{
+   font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.card p{
+   color: #727272;
+}
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.featured-architect img{
+    width: 100%;
+}
+
+/* Start Fatcts section */
+.facts-section{
+   margin-top: 130px;
+}
+
+.facts-container{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+
+.facts-card{
+   border:1px solid #FF900E ;
+   border-radius: 8px;
+   width: 240px;
+   height: 240px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+
+}
+.fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.fact-description{
+    max-width: 540px;
+}
+
 
 /* Responsive media queary */
 /* header section */
@@ -181,5 +282,19 @@
    margin-bottom: 10px;
    
 }
+
+/* Experience section responsive */
+.exp-container{
+  flex-direction: column;
+  gap: 40px;
 }
 
+.exp-left,
+.exp-right{
+  max-width: 100%;
+}
+
+.image-coantainer img{
+  width: 100%;
+}
+}
